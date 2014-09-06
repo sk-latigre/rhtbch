@@ -18,3 +18,17 @@ body {
 	text-align: center;
 	bottom: 3%;
 }
+
+::-webkit-scrollbar-thumb:vertical {
+	background-color:transparent;
+	height:100px;
+}
+::-webkit-scrollbar-thumb:horizontal {
+	background-color:transparent;
+	height:5px !important;
+}
+::-webkit-scrollbar {
+	height:5px;
+	width:5px;
+	background-color:transparent;
+}
