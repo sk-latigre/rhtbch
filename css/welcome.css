@@ -16,7 +16,7 @@ body {
 	position: inherit;
 	font-family: 'Julius Sans One', sans-serif;
 	text-align: center;
-	bottom: 3%;
+	bottom: 0%;
 }
 
 ::-webkit-scrollbar-thumb:vertical {
