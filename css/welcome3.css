@@ -12,10 +12,9 @@ body {
 	margin:0 auto;
 }
 
-#copyright {
+.copyright {
 	font-family: 'Julius Sans One', sans-serif;
 	position: absolute;
 	bottom: 5%;
 	left: 50%;
 }
-
