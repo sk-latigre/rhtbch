@@ -13,7 +13,7 @@ body {
 }
 
 .copyright {
-	position: fixed;
+	position: inherit;
 	font-family: 'Julius Sans One', sans-serif;
 	text-align: center;
 	bottom: 3%;
