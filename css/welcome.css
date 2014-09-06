@@ -18,3 +18,9 @@ body {
 	bottom: 5%;
 	left: 50%;
 }
+#copyright {
+	font-family: 'Julius Sans One', sans-serif;
+	position: fixed;
+	bottom: 5%;
+	left: 50%;
+}
