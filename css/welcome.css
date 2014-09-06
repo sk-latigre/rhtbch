@@ -11,3 +11,10 @@ body {
 	padding:15%;
 	margin:0 auto;
 }
+
+#copyright {
+	font-family: 'Julius Sans One', sans-serif;
+	position: fixed;
+	bottom: 5%;
+	left: 50%;
+}
