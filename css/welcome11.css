@@ -8,11 +8,12 @@ body {
 	width:50%;
 	text-align:center;
 	border:0px;
-	padding:0%;
+	padding:15%;
 	margin:0 auto;
 }
 
 .copyright {
+	display:block;
 	font-family: 'Julius Sans One', sans-serif;
 	text-align: center;
 	bottom: 1%;
