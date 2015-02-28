@@ -61,7 +61,7 @@ body {
 }
 
 #centered {
-	width:50%;
+	width:{text:Width}px;
 	text-align:center;
 	border:0px;
 	padding:10%;
