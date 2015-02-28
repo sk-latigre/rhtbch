@@ -1,0 +1,91 @@
+#header-wrap {
+	top:0;
+	left:0;
+	width:100%;
+	height:100px;
+	background-color:#d7d7d7;
+	font-family: LFTCST
+}
+
+#header {
+	width:100%;
+	margin:0 auto;
+	position:relative;
+}
+
+.logo {
+	display:block;
+	width: 282px;
+	height: 100px;
+	background:url(../images/logo-header.png) top;
+}
+
+.logo:hover {
+	background-position: 0 100%;
+}
+
+#header ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+	position:absolute;
+	top:80px;
+	right:0;
+}
+
+#header ul li{
+	float:left;
+	margin-right:5px;
+}
+
+#header ul li a{
+	float: left;
+	color:#282828;
+	font-weight:normal;
+	font-size:15px;
+	margin-right:5px;
+	text-decoration:none;
+}
+
+#header ul li a:hover {
+	color:#b7952a;
+}
+
+body {
+	font-family:LFTCST;
+	margin:0;
+	padding:0;
+	padding-top:0px;
+	text-align:center;
+	background-color:#282828;
+}
+
+#centered {
+	width:{text:Width}px;
+	text-align:center;
+	border:0px;
+	padding:0px;
+	margin:0 auto;
+	color:#d7d7d7;
+	font-family:arial;
+}
+
+#title {
+	text-align:center;
+	color:#d7d7d7
+}
+
+#break {
+	color:#d7d7d7;
+	width:47%;
+	height:4px;
+}
+
+@font-face {
+	font-family:"LFTCST";
+	src:url(https://cdn.rawgit.com/sk-latigre/rhtbch/master/fonts/arialbd.ttf);
+}
+
+@font-face {
+	font-family:"arial";
+	src:url(https://cdn.rawgit.com/sk-latigre/rhtbch/master/fonts/arial.ttf);
