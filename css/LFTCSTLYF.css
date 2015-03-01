@@ -71,8 +71,8 @@ body {
 
 #leftcoast {
     position: fixed;
-    bottom: 10px;
-    left: 20px;
+    bottom: 1%;
+    left: 1%;
 }
 
 @font-face {
