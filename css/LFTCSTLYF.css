@@ -2,9 +2,8 @@
 	top:0;
 	left:0;
 	width:100%;
-	height:100px;
-	background-color:#d7d7d7;
-	font-family: LFTCST
+	height:150px;
+	font-family:arial;
 }
 
 #header {
@@ -13,23 +12,12 @@
 	position:relative;
 }
 
-.logo {
-	display:block;
-	width: 282px;
-	height: 100px;
-	background:url(../images/logo-header.png) top;
-}
-
-.logo:hover {
-	background-position: 0 100%;
-}
-
 #header ul {
 	margin:0;
 	padding:0;
 	list-style:none;
-	position:absolute;
-	top:80px;
+	position:fixed;
+	bottom:0px;
 	right:0;
 }
 
@@ -40,7 +28,7 @@
 
 #header ul li a{
 	float: left;
-	color:#282828;
+	color:#d7d7d7;
 	font-weight:normal;
 	font-size:15px;
 	margin-right:5px;
@@ -52,7 +40,7 @@
 }
 
 body {
-	font-family:LFTCST;
+	font-family:arial;
 	margin:0;
 	padding:0;
 	padding-top:0px;
@@ -64,7 +52,7 @@ body {
 	width:{text:Width}px;
 	text-align:center;
 	border:0px;
-	padding:10%;
+	padding:0px;
 	margin:0 auto;
 	color:#d7d7d7;
 	font-family:arial;
@@ -81,11 +69,18 @@ body {
 	height:4px;
 }
 
+#leftcoast {
+    position: fixed;
+    bottom: 10px;
+    left: 20px;
+}
+
 @font-face {
-	font-family:"LFTCST";
+	font-family:"arialbd";
 	src:url(https://cdn.rawgit.com/sk-latigre/rhtbch/master/fonts/arialbd.ttf);
 }
 
 @font-face {
 	font-family:"arial";
 	src:url(https://cdn.rawgit.com/sk-latigre/rhtbch/master/fonts/arial.ttf);
+}
