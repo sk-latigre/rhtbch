@@ -42,7 +42,7 @@
 	float: left;
 	color:#282828;
 	font-weight:normal;
-	font-size:20px;
+	font-size:15px;
 	margin-right:5px;
 	text-decoration:none;
 }
@@ -83,7 +83,7 @@ body {
 
 @font-face {
 	font-family:"LFTCST";
-	src:url(https://cdn.rawgit.com/sk-latigre/rhtbch/master/fonts/coolvetica.ttf);
+	src:url(https://cdn.rawgit.com/sk-latigre/rhtbch/master/fonts/arialbd.ttf);
 }
 
 @font-face {
