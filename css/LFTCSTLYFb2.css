@@ -28,7 +28,7 @@
 
 #header ul li a{
 	float: left;
-	color:#575757;
+	color:#808080;
 	font-weight:normal;
 	font-size:15px;
 	margin-right:5px;
@@ -46,7 +46,7 @@ body {
 	padding-top:0px;
 	text-align:center;
 	background-color:#282828;
-	color:#575757;
+	color:#808080;
 }
 
 #centered {
